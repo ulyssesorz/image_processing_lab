@@ -12,4 +12,4 @@ figure;imshow(imag2);title('均值滤波后的图像');
 h2=fspecial('laplacian',0.2);%拉普拉斯模板
 i=imfilter(imag,h2,'replicate');
 imag3=imag-i;
-figure;imshow(imag3,[]);title('拉普拉斯滤波后的图像');
+figure;imshow(imag3);title('拉普拉斯滤波后的图像');
